@@ -28,13 +28,14 @@ $(document).ready(function() {
     });
 
     
-    $(document).on('change', ':checkbox', (event) => {
-        console.log($(event.currentTarget).attr('id'));
-        if($(event.currentTarget.checked)){
+    $(document).on('click', ':checkbox', (event) => {
+        
+        if(event.currentTarget.checked){
             $(event.currentTarget).parent().addClass('done');
         } else {
             $(event.currentTarget).parent().removeClass('done');
         }
+        
     });
-
+    
 });
