@@ -1,0 +1,94 @@
+body {
+    background-color: #fbe7d3 !important;
+}
+
+.container h1, .container h4{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Yusei Magic', sans-serif;
+}
+
+    .container #row-1 {
+        margin-top: 30px;
+    }
+
+    .container .row .col-12 h2 {
+        text-align: center;
+        font-family: 'Yusei Magic', sans-serif;
+    }
+
+    .container .row .col-12 input[type="text"]{
+        width: inherit;
+        font-family: 'Yusei Magic', sans-serif;
+        border-radius: 3px;
+    }
+
+    .container .row .col-12 #add {
+        margin-top: 10px;
+        width: inherit;
+        font-family: 'Yusei Magic', sans-serif;
+        background-color: #003049;
+        color: white;
+        border-radius: 5px;
+        margin-bottom: 30px;
+    }
+
+                    .col-12 .container{
+                        border: 2px solid #000000;
+                        border-radius: 5px;
+                        text-align: center;
+                        background-color: #f77f00;
+                    }
+
+                    .col-12 .container .row{
+                        justify-content: center;
+                        background-color: #eae2b7;
+                        font-family: 'Yusei Magic', sans-serif;
+                    }
+
+                    .col-12 .container .row .col-4{
+                        border: 1px solid #000000;
+                        text-align: center;
+                        background-color: #fcbf49;
+                    }
+
+                    .col-12 .container .row .col-4 a{
+                        width: inherit;
+                        font-family: 'Yusei Magic', sans-serif;
+                    }
+
+.toDoItem{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+}
+
+input[type="checkbox"]{
+    transform: scale(1.5);
+    margin-right: 10px;
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+
+footer{
+    background-color: black;
+    justify-items: center;
+    color: white;
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    bottom: -10px;
+}
+
+footer p {
+    padding-left: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
