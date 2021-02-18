@@ -44,6 +44,11 @@ body {
                         justify-content: center;
                         background-color: #eae2b7;
                         font-family: 'Yusei Magic', sans-serif;
+                        display: flex;
+                    }
+
+                    .col-12 .container .row .col-6{
+                        display: inline-flex;
                     }
 
                     .col-12 .container .row .col-4{
@@ -69,12 +74,25 @@ body {
 input[type="checkbox"]{
     transform: scale(1.5);
     margin-right: 10px;
+    align-self: center;
 }
 
 .done{
     text-decoration: line-through;
 }
 
+.delButton{
+    width:15%;
+    align-self: center;
+}
+
+.toDoItemRight{
+    justify-content: flex-end;
+}
+
+.selected{
+    background-color: burlywood;
+}
 
 footer{
     background-color: black;
