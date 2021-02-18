@@ -50,16 +50,25 @@ $(document).ready(function() {
 
     allOnClick  = () => {
         $(".toDoItem").show();
+        $("#allCol4").addClass('selected');
+        $("#incompleteCol4").removeClass('selected');
+        $("#completeCol4").removeClass('selected');
     }
 
     incompleteOnClick  = () => {
         $(".toDoItem:not(.done)").show();
         $(".done").parent().parent().hide();
+        $("#incompleteCol4").addClass('selected');
+        $("#completeCol4").removeClass('selected');
+        $("#allCol4").removeClass('selected');
     }
 
     completeOnClick  = () => {
         $(".toDoItem:not(.done)").hide();
         $(".done").parent().parent().show();
+        $("#completeCol4").addClass('selected');
+        $("#allCol4").removeClass('selected');
+        $("#incompleteCol4").removeClass('selected');
     }
     
 });
